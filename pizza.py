@@ -134,8 +134,6 @@ for line in file_in:
 		matrix.append(list(line))
 	i = i + 1
 
-print matrix
-
 # Count the number of ingredients
 ingredients_total = ingredients_count(0, header[0]-1, 0, header[1]-1, matrix)
 
